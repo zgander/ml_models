@@ -84,19 +84,17 @@ To set up this project locally:
    ```
 
 2. **Install Dependencies:**
-   Ensure Python is installed, then install the required libraries:
    ```bash
    pip install pandas numpy matplotlib seaborn scikit-learn
    ```
-
-## Usage Instructions
+   
+3. **Usage Instructions**
 To run the model training and evaluation script:
 1. Ensure `housing_cleaned.csv` is in the same directory as `model.py`.
 2. Run the execution script:
    ```bash
    python model.py
    ```
-3. The script will output the actual versus predicted prices and display the performance metrics in the console.
 
 ## Technologies Used
 * **Language:** Python
@@ -104,14 +102,8 @@ To run the model training and evaluation script:
 * **Visualization:** Matplotlib, Seaborn
 * **Machine Learning:** Scikit-Learn
 
-## Key Learnings
-* **Encoding Techniques:** Gained hands-on experience with binary mapping and one-hot encoding to handle nominal categorical variables.
-* **Outlier Handling:** Learned to distinguish data errors from legitimate extreme values, deciding to retain premium listings to preserve real-world variance.
-* **Linear Assumptions:** Observed how regression models respond to feature inclusion and structural constraints.
-
 ## Conclusion
 This project demonstrates the application of Linear Regression to predict real estate pricing. By executing a clean pipeline of preprocessing, categorical encoding, and feature selection, we established a structured dataset for machine learning. The final model explains approximately 65% of the variation in housing prices. The remaining 35% variation may be attributed to factors not present in the dataset, non-linear relationships between features and price, and inherent noise commonly found in real-world housing markets.
----
 
 ## Author
 * **Name:** Preetham Vasireddy
