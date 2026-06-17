@@ -67,7 +67,6 @@ The model achieved a training $R^2$ of approximately 0.68 and a testing $R^2$ of
 ## Project Structure
 The repository is organized as follows:
 ```
-HousingLinearRegression/
 ├── housing_cleaned.csv            # Preprocessed dataset
 ├── model.py                       # Model training and evaluation script
 ├── README.md                      # Project documentation
@@ -79,8 +78,8 @@ To set up this project locally:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/username/housing-linear-regression.git
-   cd housing-linear-regression
+   git clone https://github.com/zgander/housing-linear-regression.git
+   cd housing-price-predictor
    ```
 
 2. **Install Dependencies:**
